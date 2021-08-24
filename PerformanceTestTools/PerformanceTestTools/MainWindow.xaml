@@ -1,0 +1,74 @@
+﻿<Window x:Class="PerformanceTestTools.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PerformanceTestTools"
+        xmlns:viewModel="clr-namespace:PerformanceTestTools.MVVM.ViewModel"
+        xmlns:Core="clr-namespace:PerformanceTestTools.Core"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="920"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        Background="Transparent"
+        AllowsTransparency="True">
+    
+    <Window.DataContext>
+        <viewModel:MainViewModel/>
+    </Window.DataContext>
+    
+    <Border Background="#272537"
+            CornerRadius="20">
+        <Grid MouseLeftButtonDown="ColumnDefinition_MouseLeftButtonDown">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="75"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <TextBlock Text="SaniTOX EP Test"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Left"
+                   Foreground="White"
+                   FontSize="22"
+                   Margin="20, 0, 0, 0"/>
+            
+            <StackPanel Grid.Row="1">
+                <RadioButton Content="Login Performance"
+                             Height="50"
+                             Foreground="White"
+                             FontSize="14"
+                             Style="{StaticResource MenuButtonTheme}"
+                             IsChecked="True"
+                             Command="{Binding HomeViewCommand}"/>
+                <RadioButton Content="File Upload Performance"
+                             Height="50"
+                             Foreground="White"
+                             FontSize="14"
+                             Style="{StaticResource MenuButtonTheme}"
+                             Command="{Binding DiscoveryViewCommand}"/>
+                <RadioButton Content="Setting"
+                             Height="50"
+                             Foreground="White"
+                             FontSize="14"
+                             Style="{StaticResource MenuButtonTheme}"/>
+            </StackPanel>
+            <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
+                <Core:ImageButton x:Name="minimize" Image="/Images/outline_minimize_black_24dp.png" Click="minimize_Click"  Margin="0,0,0,0"/>
+                <Core:ImageButton x:Name="close" Image="/Images/outline_close_black_24dp.png" Click="close_Click"  Margin="0,0,10,0"/>
+            </StackPanel>
+            
+
+            <ContentControl Grid.Row="1"
+                            Grid.Column="1"
+                            Margin="10" 
+                            Content="{Binding CurrentView}"/>
+            
+        </Grid>
+
+        
+    </Border>
+</Window>
