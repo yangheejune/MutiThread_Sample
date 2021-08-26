@@ -12,7 +12,7 @@ namespace PerformanceTestTools.MVVM.ViewModel
         public RelayCommand HomeViewCommand { get; set; }
         public RelayCommand DiscoveryViewCommand { get; set; }
 
-        public HomeViewModel HomeVm { get; set; }
+        public LoginPerformanceViewModel LoginPerformanceVm { get; set; }
         public DiscoveryViewDodel DiscoveryVm { get; set; }
 
         private object _currentView;
@@ -28,12 +28,12 @@ namespace PerformanceTestTools.MVVM.ViewModel
         }
         public MainViewModel()
         {
-            HomeVm = new HomeViewModel();
+            LoginPerformanceVm = new LoginPerformanceViewModel();
             DiscoveryVm = new DiscoveryViewDodel();
-            CurrentView = HomeVm;
+            CurrentView = LoginPerformanceVm;
 
             HomeViewCommand = new RelayCommand( o => {
-                CurrentView = HomeVm;
+                CurrentView = LoginPerformanceVm;
             });
 
             DiscoveryViewCommand = new RelayCommand( o => {

@@ -10,11 +10,11 @@ none
 false
 TRACE;RELEASE;NET;NET5_0;NETCOREAPP
 C:\Users\user\Documents\MutiThread_Sample\PerformanceTestTools\PerformanceTestTools\App.xaml
-61249648471
+91967861245
 
-13-1628789355
+141561184875
 193-1891726104
-MainWindow.xaml;MVVM\View\DiscoveryView.xaml;MVVM\View\HomeView.xaml;Theme\ImageButtonTheme.xaml;Theme\MenuButtonTheme.xaml;Theme\TextboxTheme.xaml;
+MainWindow.xaml;MVVM\View\DiscoveryView.xaml;MVVM\View\LoginPerformanceView.xaml;Theme\ImageButtonTheme.xaml;Theme\LogViewButtonTheme.xaml;Theme\MenuButtonTheme.xaml;Theme\PasswordboxTheme.xaml;Theme\TextboxTheme.xaml;Theme\ThreadTextboxTheme.xaml;
 
 False
 

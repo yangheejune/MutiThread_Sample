@@ -12,7 +12,7 @@
     <Compile Update="MVVM\View\DiscoveryView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="MVVM\View\HomeView.xaml.cs">
+    <Compile Update="MVVM\View\LoginPerformanceView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -23,7 +23,10 @@
     <Page Update="MVVM\View\DiscoveryView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="MVVM\View\HomeView.xaml">
+    <Page Update="MVVM\View\LoginPerformanceView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Theme\LogViewButtonTheme.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Theme\MenuButtonTheme.xaml">
@@ -32,7 +35,13 @@
     <Page Update="Theme\ImageButtonTheme.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Theme\PasswordboxTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Theme\TextboxTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Theme\ThreadTextboxTheme.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

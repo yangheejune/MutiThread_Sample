@@ -9,9 +9,8 @@
                     <ControlTemplate TargetType="{x:Type Core:ImageButton}">
                         <Grid VerticalAlignment="Stretch"
                               HorizontalAlignment="Stretch"
-                              Width="24" Height="24"
                               Background="{TemplateBinding Background}">
-                            <Image Source="{TemplateBinding Image}" Stretch="Fill"/>
+                            <Image Source="{TemplateBinding Image}" Stretch="None"/>
                         </Grid>
                     </ControlTemplate>
                 </Setter.Value>
@@ -21,10 +20,10 @@
         </Style.Setters>
         <Style.Triggers>
             <Trigger Property="IsPressed" Value="True">
-                <Setter Property="Background" Value="#22202f"/>
+                <Setter Property="Background" Value="#dbe2ef"/>
             </Trigger>
             <Trigger Property="IsMouseOver" Value="True">
-                <Setter Property="Background" Value="#22202f"/>
+                <Setter Property="Background" Value="#dbe2ef"/>
             </Trigger>
         </Style.Triggers>
     </Style>

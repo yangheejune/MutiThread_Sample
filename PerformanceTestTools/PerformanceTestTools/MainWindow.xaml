@@ -17,7 +17,7 @@
         <viewModel:MainViewModel/>
     </Window.DataContext>
     
-    <Border Background="#272537"
+    <Border Background="#f9f7f7"
             CornerRadius="20">
         <Grid MouseLeftButtonDown="ColumnDefinition_MouseLeftButtonDown">
             <Grid.ColumnDefinitions>
@@ -32,35 +32,34 @@
             <TextBlock Text="SaniTOX EP Test"
                    VerticalAlignment="Center"
                    HorizontalAlignment="Left"
-                   Foreground="White"
+                   Foreground="#112d4e"
                    FontSize="22"
                    Margin="20, 0, 0, 0"/>
             
             <StackPanel Grid.Row="1">
                 <RadioButton Content="Login Performance"
                              Height="50"
-                             Foreground="White"
+                             Foreground="#112d4e"
                              FontSize="14"
                              Style="{StaticResource MenuButtonTheme}"
                              IsChecked="True"
                              Command="{Binding HomeViewCommand}"/>
                 <RadioButton Content="File Upload Performance"
                              Height="50"
-                             Foreground="White"
+                             Foreground="#112d4e"
                              FontSize="14"
                              Style="{StaticResource MenuButtonTheme}"
                              Command="{Binding DiscoveryViewCommand}"/>
                 <RadioButton Content="Setting"
                              Height="50"
-                             Foreground="White"
+                             Foreground="#112d4e"
                              FontSize="14"
                              Style="{StaticResource MenuButtonTheme}"/>
             </StackPanel>
             <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
-                <Core:ImageButton x:Name="minimize" Image="/Images/outline_minimize_black_24dp.png" Click="minimize_Click"  Margin="0,0,0,0"/>
-                <Core:ImageButton x:Name="close" Image="/Images/outline_close_black_24dp.png" Click="close_Click"  Margin="0,0,10,0"/>
+                <Core:ImageButton x:Name="minimize" Image="/Images/outline_minimize_black_18dp.png" Click="minimize_Click"  Margin="0,0,0,0" Height="20"/>
+                <Core:ImageButton x:Name="close" Image="/Images/outline_close_black_18dp.png" Click="close_Click"  Margin="0,0,10,0" Height="20"/>
             </StackPanel>
-            
 
             <ContentControl Grid.Row="1"
                             Grid.Column="1"

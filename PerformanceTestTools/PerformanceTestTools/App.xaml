@@ -11,10 +11,13 @@
                 <ResourceDictionary Source="Theme/MenuButtonTheme.xaml"/>
                 <ResourceDictionary Source="Theme/TextboxTheme.xaml"/>
                 <ResourceDictionary Source="Theme/ImageButtonTheme.xaml"/>
+                <ResourceDictionary Source="Theme/PasswordboxTheme.xaml"/>
+                <ResourceDictionary Source="Theme/ThreadTextboxTheme.xaml"/>
+                <ResourceDictionary Source="Theme/LogViewButtonTheme.xaml"/>
             </ResourceDictionary.MergedDictionaries>
 
-            <DataTemplate DataType="{x:Type viewModel:HomeViewModel}">
-                <view:HomeView/>
+            <DataTemplate DataType="{x:Type viewModel:LoginPerformanceViewModel}">
+                <view:LoginPerformanceView/>
             </DataTemplate>
         </ResourceDictionary>
     </Application.Resources>

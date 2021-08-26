@@ -1,2 +1,11 @@
 C:\Users\user\Desktop\SaniToxPerformanceTestTools\PerformanceTestTools.pdb
+C:\Users\user\Desktop\SaniToxPerformanceTestTools\clrcompression.dll
+C:\Users\user\Desktop\SaniToxPerformanceTestTools\clrjit.dll
+C:\Users\user\Desktop\SaniToxPerformanceTestTools\coreclr.dll
+C:\Users\user\Desktop\SaniToxPerformanceTestTools\mscordaccore.dll
+C:\Users\user\Desktop\SaniToxPerformanceTestTools\D3DCompiler_47_cor3.dll
+C:\Users\user\Desktop\SaniToxPerformanceTestTools\PenImc_cor3.dll
+C:\Users\user\Desktop\SaniToxPerformanceTestTools\PresentationNative_cor3.dll
+C:\Users\user\Desktop\SaniToxPerformanceTestTools\vcruntime140_cor3.dll
+C:\Users\user\Desktop\SaniToxPerformanceTestTools\wpfgfx_cor3.dll
 C:\Users\user\Desktop\SaniToxPerformanceTestTools\PerformanceTestTools.exe
