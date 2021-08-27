@@ -36,8 +36,8 @@
                                    Foreground="#112d4e" FontSize="20" Margin="20,10,10,0"/>
                         <TextBlock Text="테스트를 위해서 만든 아이디/패스워드를 입력하세요"
                                    Foreground="#112d4e" FontSize="12" Margin="20,10,10,0"/>
-                        <TextBox x:Name="UserID" Style="{StaticResource ModernTextbox}" HorizontalAlignment="Left" Margin="15"/>
-                        <PasswordBox x:Name="UserPW" Style="{StaticResource Passwordbox}" HorizontalAlignment="Left" Margin="15 0" Padding="5" Foreground="#cfcfcf"/>
+                        <TextBox x:Name="UserID" Style="{StaticResource ModernTextbox}" Foreground="#cfcfcf" Padding="5" HorizontalAlignment="Left" Margin="15"/>
+                        <PasswordBox x:Name="UserPW" Style="{StaticResource Passwordbox}" Foreground="#cfcfcf" HorizontalAlignment="Left" Margin="15 0" Padding="5"/>
 
                     </StackPanel>
 
@@ -67,9 +67,9 @@
                                    Foreground="#112d4e" FontSize="12" Margin="20,10,10,0"/>
 
                         <StackPanel Orientation="Horizontal" Margin="20 10 0 0">
-                            <TextBox x:Name="ThreadCount" Style="{StaticResource ThreadTextbox}"  MaxLength="4" 
-                                     GotFocus="ThreadCount_GotFocus" PreviewTextInput="ThreadCount_PreviewTextInput" 
-                                     TextChanged="ThreadCount_TextChanged"/>
+                            <TextBox x:Name="ThreadCount" Style="{StaticResource ThreadTextbox}" 
+                                     PreviewTextInput="ThreadCount_PreviewTextInput"
+                                     Foreground="#cfcfcf" Padding="5"/>
                             
                             <StackPanel Orientation="Vertical">
                                 <Core:ImageButton x:Name="UpCount" Image="/Images/outline_arrow_drop_up_black_18dp.png" Click="UpCount_Click"  Margin="5,2,0,0"/>

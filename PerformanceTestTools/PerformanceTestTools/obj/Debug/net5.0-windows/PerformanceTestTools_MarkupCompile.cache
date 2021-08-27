@@ -12,7 +12,7 @@ TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 C:\Users\user\Documents\MutiThread_Sample\PerformanceTestTools\PerformanceTestTools\App.xaml
 91967861245
 
-121923875090
+131045839109
 193-1891726104
 MainWindow.xaml;MVVM\View\DiscoveryView.xaml;MVVM\View\LoginPerformanceView.xaml;Theme\ImageButtonTheme.xaml;Theme\LogViewButtonTheme.xaml;Theme\MenuButtonTheme.xaml;Theme\PasswordboxTheme.xaml;Theme\TextboxTheme.xaml;Theme\ThreadTextboxTheme.xaml;
 
