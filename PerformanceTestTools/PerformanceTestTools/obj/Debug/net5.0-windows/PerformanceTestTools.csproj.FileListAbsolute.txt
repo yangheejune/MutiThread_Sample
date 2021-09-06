@@ -31,3 +31,5 @@ C:\Users\user\Documents\MutiThread_Sample\PerformanceTestTools\PerformanceTestTo
 C:\Users\user\Documents\MutiThread_Sample\PerformanceTestTools\PerformanceTestTools\obj\Debug\net5.0-windows\MVVM\View\LoginPerformanceView.g.cs
 C:\Users\user\Documents\MutiThread_Sample\PerformanceTestTools\PerformanceTestTools\obj\Debug\net5.0-windows\MVVM\View\LoginPerformanceView.baml
 C:\Users\user\Documents\MutiThread_Sample\PerformanceTestTools\PerformanceTestTools\obj\Debug\net5.0-windows\Theme\LogViewButtonTheme.baml
+C:\Users\user\Documents\MutiThread_Sample\PerformanceTestTools\PerformanceTestTools\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
+C:\Users\user\Documents\MutiThread_Sample\PerformanceTestTools\PerformanceTestTools\obj\Debug\net5.0-windows\PerformanceTestTools.csproj.CopyComplete

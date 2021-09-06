@@ -1,5 +1,5 @@
 ﻿PerformanceTestTools
-
+1.0.0.0
 
 winexe
 C#
@@ -12,7 +12,7 @@ TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 C:\Users\user\Documents\MutiThread_Sample\PerformanceTestTools\PerformanceTestTools\App.xaml
 91967861245
 
-131045839109
+15-940889987
 194-481239562
 MainWindow.xaml;MVVM\View\DiscoveryView.xaml;MVVM\View\LoginPerformanceView.xaml;Theme\ImageButtonTheme.xaml;Theme\LogViewButtonTheme.xaml;Theme\MenuButtonTheme.xaml;Theme\PasswordboxTheme.xaml;Theme\TextboxTheme.xaml;Theme\ThreadTextboxTheme.xaml;
 

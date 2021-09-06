@@ -26,6 +26,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Resource Include="Images\love.png" />
     <Resource Include="Images\outline_arrow_drop_down_black_18dp.png" />
     <Resource Include="Images\outline_arrow_drop_down_black_24dp.png" />
