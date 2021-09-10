@@ -33,3 +33,6 @@ C:\Users\user\Documents\MutiThread_Sample\PerformanceTestTools\PerformanceTestTo
 C:\Users\user\Documents\MutiThread_Sample\PerformanceTestTools\PerformanceTestTools\obj\Debug\net5.0-windows\Theme\LogViewButtonTheme.baml
 C:\Users\user\Documents\MutiThread_Sample\PerformanceTestTools\PerformanceTestTools\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
 C:\Users\user\Documents\MutiThread_Sample\PerformanceTestTools\PerformanceTestTools\obj\Debug\net5.0-windows\PerformanceTestTools.csproj.CopyComplete
+C:\Users\user\Documents\MutiThread_Sample\PerformanceTestTools\PerformanceTestTools\bin\Debug\net5.0-windows\log4net.dll
+C:\Users\user\Documents\MutiThread_Sample\PerformanceTestTools\PerformanceTestTools\bin\Debug\net5.0-windows\log4net.config
+C:\Users\user\Documents\MutiThread_Sample\PerformanceTestTools\PerformanceTestTools\obj\Debug\net5.0-windows\PerformanceTestTools_Content.g.cs

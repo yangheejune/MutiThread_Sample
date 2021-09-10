@@ -101,18 +101,25 @@
                    HorizontalAlignment="Left"
                    Margin="0,0,0,10"/>
             <StackPanel Orientation="Horizontal">
-                <Border Width="150"
+                <Border Width="170"
                         Height="150"
                         Background="#3361e0"
                         CornerRadius="10"
                         Margin="0">
-                    <TextBlock Text="성공 : 0" FontSize="35" Foreground="#dbe2ef" TextAlignment="Center" VerticalAlignment="Center"/>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <TextBlock Text="성공 : " FontSize="35" Foreground="#dbe2ef" TextAlignment="Center" VerticalAlignment="Center"/>
+                        <TextBlock Text="{Binding SuccessCount}" FontSize="35" Foreground="#dbe2ef" TextAlignment="Center" VerticalAlignment="Center"/>
+                    </StackPanel>
+                    
                 </Border>
-                <Border Width="150"
+                <Border Width="170"
                         Height="150"
                         Background="#e54747"
                         CornerRadius="10">
-                    <TextBlock Text="실패 : 0" FontSize="35" Foreground="#dbe2ef" TextAlignment="Center" VerticalAlignment="Center"/>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <TextBlock Text="실패 : " FontSize="35" Foreground="#dbe2ef" TextAlignment="Center" VerticalAlignment="Center"/>
+                        <TextBlock Text="{Binding FailCount}" FontSize="35" Foreground="#dbe2ef" TextAlignment="Center" VerticalAlignment="Center"/>
+                    </StackPanel>
                 </Border>
                 <Border Width="150"
                         Height="150"
