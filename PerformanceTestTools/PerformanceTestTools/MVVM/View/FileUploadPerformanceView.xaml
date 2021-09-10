@@ -1,4 +1,4 @@
-﻿<UserControl x:Class="PerformanceTestTools.MVVM.View.LoginPerformanceView"
+﻿<UserControl x:Class="PerformanceTestTools.MVVM.View.FileUploadPerformanceView"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -41,8 +41,8 @@
 
                     </StackPanel>
 
-                    <Core:ImageButton x:Name="startBtn" Image="/Images/outline_login_black_48dp.png" Click="startBtn_Click" Margin="200,50,0,0" Height="100" Width="100"/> 
-                    
+                    <Core:ImageButton x:Name="startBtn" Image="/Images/outline_login_black_48dp.png" Click="startBtn_Click"  Margin="200,50,0,0" Height="100" Width="100"/>
+
                 </Grid>
             </Border>
 
@@ -69,7 +69,7 @@
                         <StackPanel Orientation="Horizontal" Margin="20 10 0 0">
                             <TextBox x:Name="ThreadCount" Style="{StaticResource ThreadTextbox}" 
                                      PreviewTextInput="ThreadCount_PreviewTextInput"
-                                     Foreground="#cfcfcf" Padding="5"/>                            
+                                     Foreground="#cfcfcf" Padding="5"/>
                         </StackPanel>
                     </StackPanel>
                     <Image Width="85"
@@ -79,7 +79,7 @@
                            VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5" Margin="0,0,22,29">
                     </Image>
                 </Grid>
-            </Border>            
+            </Border>
         </StackPanel>
 
         <StackPanel>
@@ -97,14 +97,25 @@
             <StackPanel Orientation="Horizontal">
                 <Border Width="170"
                         Height="150"
-                        Background="#3361e0"
+                        Background="#FF388D38"
                         CornerRadius="10"
                         Margin="0">
+                    <Button x:Name="FileSelect" Background="#FF388D38"
+                            Click="FileSelect_Click" 
+                            Margin="3" Content="파일선택" 
+                            Style="{StaticResource LogViewButton}"/>
+
+                </Border>
+                <Border Width="170"
+                        Height="150"
+                        Background="#3361e0"
+                        CornerRadius="10"
+                        >
                     <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                         <TextBlock Text="성공 : " FontSize="35" Foreground="#dbe2ef" TextAlignment="Center" VerticalAlignment="Center"/>
                         <TextBlock Text="{Binding SuccessCount}" FontSize="35" Foreground="#dbe2ef" TextAlignment="Center" VerticalAlignment="Center"/>
                     </StackPanel>
-                    
+
                 </Border>
                 <Border Width="170"
                         Height="150"

@@ -2,7 +2,7 @@
 
 namespace PerformanceTestTools.MVVM.ViewModel
 {
-    class LoginPerformanceViewModel : INotifyPropertyChanged
+    class FileUploadPerformanceViewModel : INotifyPropertyChanged
     {
         #region INotifyPropertyChanged Members
         public event PropertyChangedEventHandler PropertyChanged;
@@ -28,6 +28,17 @@ namespace PerformanceTestTools.MVVM.ViewModel
         {
             get { return this._userPW; }
             set { this._userPW = value; }
+        }
+
+        private string _filePath;
+        public string filePath
+        {
+            get { return this._filePath; }
+            set
+            {
+                this._filePath = value;
+                this.RaisePropertyChanged(nameof(filePath));
+            }
         }
 
         private int _SuccessCount;

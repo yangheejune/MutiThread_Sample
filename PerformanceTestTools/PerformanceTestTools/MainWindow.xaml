@@ -14,7 +14,7 @@
         AllowsTransparency="True">
     
     <Window.DataContext>
-        <viewModel:MainViewModel/>
+        <viewModel:MainViewModel/>        
     </Window.DataContext>
     
     <Border Background="#f9f7f7"
@@ -43,13 +43,13 @@
                              FontSize="14"
                              Style="{StaticResource MenuButtonTheme}"
                              IsChecked="True"
-                             Command="{Binding HomeViewCommand}"/>
+                             Command="{Binding LoginPerformanceViewCommand}"/>
                 <RadioButton Content="File Upload Performance"
                              Height="50"
                              Foreground="#112d4e"
                              FontSize="14"
                              Style="{StaticResource MenuButtonTheme}"
-                             Command="{Binding DiscoveryViewCommand}"/>
+                             Command="{Binding FileUploadPerformanceViewCommand}"/>
                 <RadioButton Content="Setting"
                              Height="50"
                              Foreground="#112d4e"

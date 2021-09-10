@@ -9,11 +9,11 @@ namespace PerformanceTestTools.MVVM.ViewModel
 {
     class MainViewModel : ObservableObject
     {
-        public RelayCommand HomeViewCommand { get; set; }
-        public RelayCommand DiscoveryViewCommand { get; set; }
+        public RelayCommand LoginPerformanceViewCommand { get; set; }
+        public RelayCommand FileUploadPerformanceViewCommand { get; set; }
 
         public LoginPerformanceViewModel LoginPerformanceVm { get; set; }
-        public DiscoveryViewDodel DiscoveryVm { get; set; }
+        public FileUploadPerformanceViewModel FileUploadPerformanceVm { get; set; }
 
         private object _currentView;
 
@@ -29,15 +29,15 @@ namespace PerformanceTestTools.MVVM.ViewModel
         public MainViewModel()
         {
             LoginPerformanceVm = new LoginPerformanceViewModel();
-            DiscoveryVm = new DiscoveryViewDodel();
+            FileUploadPerformanceVm = new FileUploadPerformanceViewModel();
             CurrentView = LoginPerformanceVm;
 
-            HomeViewCommand = new RelayCommand( o => {
+            LoginPerformanceViewCommand = new RelayCommand( o => {
                 CurrentView = LoginPerformanceVm;
             });
 
-            DiscoveryViewCommand = new RelayCommand( o => {
-                CurrentView = DiscoveryVm;
+            FileUploadPerformanceViewCommand = new RelayCommand( o => {
+                CurrentView = FileUploadPerformanceVm;
             });
         }
     }
